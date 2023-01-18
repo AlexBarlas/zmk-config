@@ -48,7 +48,7 @@
             bindings = <
             &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp KP_EQUAL        &kp 7               &kp 8               &kp 9               &kp KP_PLUS
             &kp SEMI            &kp COLON           &kp LBRC            &kp LPAR            &kp LBKT  	        &kp KP_ASTERISK     &kp 4               &kp 5               &kp 6               &kp KP_MINUS
-            &bt CARET           &bt AMPS            &bt RBRC            &kp RPAR            &kp RBKT            &kp 0               &kp 1               &kp 2               &kp 3               &kp KP_DIVIDE
+            &kp CARET           &kp AMPS            &kp RBRC            &kp RPAR            &kp RBKT            &kp 0               &kp 1               &kp 2               &kp 3               &kp KP_DIVIDE
                                                                         &mo 3               &mo 4               &trans              &trans
             >;
         };
@@ -74,7 +74,7 @@
         control_layer {
             bindings = <
             &bt BT_NXT          &bt BT_PRV          &kp C_PLAY_PAUSE    &kp C_NEXT          &kp C_BRI_UP        &kp F12             &kp F7              &kp F8              &kp F9              &kp LC(PLUS)
-            &sk LALT            &sk LGUI            &sk LSHFT           &sk BACKSLASH       &kp C_BRI_DN        &kp F11             &kp F4              &kp F5              &kp F6              &kp LC(MINUS)
+            &sk LALT            &sk LGUI            &sk LSHFT           &kp BACKSLASH       &kp C_BRI_DN        &kp F11             &kp F4              &kp F5              &kp F6              &kp LC(MINUS)
             &kp GRAVE           &kp C_VOL_DN        &kp LBKT            &kp C_VOL_UP        &kp BSLH            &kp F10             &kp F1              &kp F2              &kp F3              &kp LC(0)
                                                                         &trans              &trans              &trans              &trans
             >;
