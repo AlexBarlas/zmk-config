@@ -61,7 +61,7 @@
             &kp CARET           &kp AMPS            &kp RBRC            &kp RPAR            &kp RBKT            &kp KP_N0           &kp KP_N1            &kp KP_N2           &kp KP_N3           &kp KP_DIVIDE
                                                                         &mo FUNC            &mo CTRL            &trans              &trans
             >;
-        }
+        };
 
         exte_layer {
             bindings = <
