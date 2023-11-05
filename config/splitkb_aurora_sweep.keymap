@@ -44,7 +44,7 @@
         combo_screenshot {
             timeout-ms = <25>;
             key-positions = <6 7 8>;
-            bindings = <&kp LGUI>, <&kp LSHFT>, <&kp S>;
+            bindings = <&kp LG(LS(S))>;
         };
     };
 
