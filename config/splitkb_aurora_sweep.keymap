@@ -62,18 +62,18 @@
 
         sym1_layer {
             bindings = <
-            &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp EQUAL           &kp N7              &kp N8             &kp N9              &kp KP_PLUS
-            &kp CARET           &kp AMPS            &kp LBRC            &kp LPAR            &kp LBKT  	        &kp KP_ASTERISK     &kp N4              &kp N5             &kp N6              &mt UNDER MINUS
-            &kp BSLH            &kp GRAVE           &kp RBRC            &kp RPAR            &kp RBKT            &kp N0              &kp N1              &kp N2             &kp N3              &kp KP_DIVIDE
+            &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp PG_UP           &kp HOME            &kp UP              &kp END             &kp CAPS
+            &kp CARET           &kp AMPS            &kp LBRC            &kp LPAR            &kp LBKT  	        &kp PG_DN           &kp LEFT            &kp DOWN            &kp RIGHT           &kp DEL
+            &kp BSLH            &kp GRAVE           &kp RBRC            &kp RPAR            &kp RBKT            &none               &kp BKSP            &kp TAB             &kp K_CMENU         &none
                                                                         &mo FUNC            &mo CTRL            &trans              &trans
             >;
         };
 
         exte_layer {
             bindings = <
-            &kp ESC             &kp C_AC_BACK       &kp C_AC_FORWARD    &kp C_AL_CALC       &kp C_AL_EMAIL      &kp PG_UP           &kp HOME            &kp UP              &kp END             &kp CAPS
-            &sk LGUI            &sk LALT            &sk LSHFT           &sk LCTRL           &sk RALT            &kp PG_DN           &kp LEFT            &kp DOWN            &kp RIGHT           &kp DEL
-            &kp LC(Z)           &kp LC(X)           &kp LC(C)           &none               &kp LC(V)           &kp PRINTSCREEN     &kp BKSP            &kp TAB             &kp K_CMENU         &none
+            &kp ESC             &kp C_AC_BACK       &kp C_AC_FORWARD    &kp C_AL_CALC       &kp C_AL_EMAIL      &kp KP_DIVIDE       &kp N7              &kp N8             &kp N9              &mt UNDER MINUS
+            &sk LGUI            &sk LALT            &sk LSHFT           &sk LCTRL           &sk RALT            &kp KP_ASTERISK     &kp N4              &kp N5             &kp N6              &kp KP_PLUS
+            &kp LC(Z)           &kp LC(X)           &kp LC(C)           &none               &kp LC(V)           &kp N0              &kp N1              &kp N2             &kp N3              &kp EQUAL
                                                                         &trans              &kp LGUI            &kp ENTER           &trans
             >;
         };
